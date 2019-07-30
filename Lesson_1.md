@@ -1,5 +1,10 @@
 # Core concepts of HPC
  
+## Using HPC
+* People need to use HPC when their datasets are "too large" or processing is "too complex" for their PC.
+* HPC is the *best* tool to processing large and complex datasets
+* However due to latency and bandwdith issues, it is not always the best for visualisation.
+
 ## Supercomputers and HPC
 * "Supercomputer" means any single computer system that has exceptional processing power for its time. 
 * One popular metric (LINPACK) is the number of floating­ point operations per second (FLOPS) such a system can carry out (http://top500.org). HPC Challenge and HPCG are broader, more interesting metrics. 
@@ -52,3 +57,4 @@ Mac OS 10.x. For MS-­Windows users, the free PuTTY client is recommended (http:
 * Using a road analogy, "latency" is the smoothness of the surface, "bandwith" is the number of lanes.
 * Distance is a *very* important factor. Data for processing should be kept as close as possible to the processor.
 * As Grace Hopper used to say: "Mind your nanoseconds!" https://www.youtube.com/watch?v=JEpsKnWZrJ8
+
